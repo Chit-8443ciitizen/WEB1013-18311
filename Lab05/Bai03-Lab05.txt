@@ -1,0 +1,5 @@
+Phân biệt kích thước phần nội dung và kích thước chiếm chỗ của phần tử (element):
+	content: là vùng chứa nội dung của một element, với chiều rộng/cao được xác định qua thuộc tính width và height. Vùng này thường chứa text, hình ảnh, video…
+ 	padding: cho biết độ rộng của vùng padding bao quanh vùng content
+ 	border: cho biết độ rộng (và style) của border bao quanh vùng padding
+ 	margin: cho biết độ rộng của vùng margin bao quanh vùng border
