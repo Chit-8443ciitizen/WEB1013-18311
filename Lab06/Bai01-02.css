@@ -1,0 +1,168 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;  
+    margin-top: 10px;         
+}
+    .container header{
+        width: 100%;
+        height: 350px;
+        background-image: url(../Image/banner.jpg);
+        background-size: 100% 100%;
+        position: relative;
+    }
+        .container .top-right{
+            display: block;
+            position: absolute;
+            width: 500px;
+            top: 0px;
+            right: 0px;
+            background-color: #ff4500;
+            border-bottom-left-radius:20px;
+            box-shadow: 0px 0px 15px rgb(0, 155, 226);
+            text-align: center;
+            line-height: 50px;
+            font-size: 25px;
+            font-variant: small-caps;
+        }
+            .container .top-right a{
+                text-decoration: none;
+                color: white;
+            }
+            .container .top-right a:hover{
+                text-decoration: underline;
+                color: #fbff00;
+                font-weight: bold;
+            }
+        .container .company-info{
+            display: block;
+            position: absolute;
+            width:450px;
+            bottom: 0px;
+            left: 50px;
+            font-variant: small-caps;                    
+        }
+            .container .company-info h2{
+                color: white;
+                text-shadow: 0 0 10px orangered;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+                font-size: 38px;
+                border-bottom:  3px  solid rgb(146, 40, 1) ;
+                line-height: 60px;          
+            }
+            .container .company-info h4{
+                color: rgb(146, 40, 1);
+                letter-spacing: 4px;
+                font-size: 30px;
+                font-weight: bold;
+            }
+    .container nav menu{
+    } 
+        .menu ul{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            background-color: orangered;
+            text-align:left;
+            line-height: 50px;
+            font-size: 25px;
+        }
+            .menu ul li{
+                display: inline-block ;
+                position: relative;
+            }
+                .menu ul li a{
+                    display: block;
+                    text-decoration: none;
+                    font-variant: small-caps;
+                    font-size: larger;
+                    color: white;
+                    padding: 0 10px;
+                    line-height: 40px;
+                }                
+                .menu ul li a:hover{
+                    color: yellow;
+                }
+                .menu ul li a img{
+                    display: inline-block ;
+                }
+                    .menu ul li:hover ul{
+                        display: block;
+                    }
+                        .menu ul ul{
+                            position: absolute;
+                            display: none;
+                            padding:3px;
+                            margin:1px;
+                            list-style:none;
+                            border-radius:3px;
+                            width:200px;
+                            background-color:white;
+                            box-shadow:0 0 5px gray;
+                        }
+                            .menu ul ul a{
+                                position: relative;
+                                display: block;
+                                line-height: 30px;
+                                border-radius:3px;
+                                color:orangered;
+                                text-decoration:none;
+                                font-variant: small-caps;
+                                font-size:larger;
+                                padding:0 20px;
+                            }
+                            .menu ul ul a:hover{
+                                background-color:orangered;
+                                color:white;
+                            }
+    .container article{
+        min-height: 500px;
+        width: 70%;
+        background-color: rgb(255, 253, 251);
+        float: left;
+    }
+        iframe[name=page]{
+            width: 100%;
+            min-height: 500px;
+            background-color: rgb(253, 252, 234);
+        }
+    .container aside ul{
+        background-color: #c6c7f7;
+        width: 30%;
+        min-height: 500px ;
+        padding: 0px;
+        margin: 0px;
+        list-style:none;
+        border-radius: 3px;
+        box-shadow:  0 0 0px gray;
+        float: right;
+    } 
+            aside ul a{
+                display: block;
+                border-bottom:01px dotted orangered;
+                color: orangered;
+                font-variant: small-caps;
+                font-size: larger;
+                text-decoration: none;
+                padding: 10px 0px 10px 30px;
+            }
+            aside ul a:hover{
+                border-bottom: 1px dotted white;
+                background-color: orangered;
+                color: white;
+                font-weight: bold;
+            }
+    .container footer{
+        border-top: 5px double orange;
+        height: 150px;
+        background-color: lightcyan ;
+        text-align: center;
+        font-variant: small-caps;
+        clear: both;
+        margin-bottom: 20px;
+    }
