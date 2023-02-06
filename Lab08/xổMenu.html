@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xổ Menu</title>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .menu ul li{
+            display: inline-block ;
+            position: relative;
+        }
+        .menu ul li a{
+            display: block;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            color: white;
+            padding: 0 10px;
+            line-height: 40px;
+        }
+        .menu ul{
+            padding: 0px;
+            margin: 0px;
+            list-style: none;
+            border-radius: 3px;
+            background-color: orangered;
+            text-align: center;
+        }
+        .menu ul li a:hover{
+            color: yellow;
+        }
+        .menu ul li:hover ul{
+            display: block;
+        }
+        .menu ul ul{
+            position: absolute;
+            display: none;
+            padding:3px;
+            margin:1px;
+            list-style:none;
+            border-radius:3px;
+            width:150px;
+            background-color:white;
+            box-shadow:0 0 5px gray;
+        }
+        .menu ul ul a{
+            position: relative;
+            display: block;
+            line-height: 30px;
+            border-radius:3px;
+            color:orangered;
+            text-decoration:none;
+            font-variant: small-caps;
+            font-size:larger;
+            padding:0 20px;
+        }
+        .menu ul ul a:hover{
+            background-color:orangered;
+            color:white;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+           <li><a href="#">Trang chủ</a></li>
+           <li><a href="#">Giới thiệu</a></li>
+           <li>
+            <a href="#">Liên hệ</a>
+            <ul>
+                <li><a href="#">Tuyển Sinh</a></li><br>
+                <li><a href="#">Thực Tập</a></li>
+            </ul>
+           </li>
+           <li><a href="#">Góp ý</a></li>
+           <li><a href="#">Hỏi đáp</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
