@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formRegister</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        #form{
+            margin: 10px 200px 0 30px;
+            padding: 10px;
+            outline: 5px solid rgb(0, 0, 58);
+            outline-offset: 5px;
+            background-color: rgb(250, 233, 210);
+            line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <p><label class="hten" name="hten" for="">Họ và tên:</label>
+            <input id="hoten" type="text">
+        </p>
+        <fieldset>
+            <p><label class="gtinh" name="gtinh" for="">Giới tính:</label>
+                <input type="radio" id="nam" name="gtinh">Nam
+                <input type="radio" id="nu" name="gtinh">Nữ
+                <input type="radio" id="khac" name="gtinh">Khác
+            </p>
+        </fieldset>
+
+
+        <p><label class="hnhan" name="hnhan" for="">Tình trạng hôn nhân:</label>
+            <input type="radio" id="docthan" name="hnhan">Độc thân
+            <input type="radio" id="giadinh" name="hnhan">Đã có gia đình
+        </p>
+
+        <p><label class="hanh" for="">Hình ảnh</label></p>
+        <p><input id="hinhanh" type="file" action="uploading.php" method="post"
+                enctype="ultipart/form-data" ></p>
+
+        <p><label class="qtich" for="">Quốc tịch:</label>
+            <select name="" id="">
+                <option value="">USA</option>
+                <option value="">VietNam</option>
+                <option value="">Russia</option>
+                <option value="">ThaiLand</option>
+            </select>
+        </p>
+
+        <p class="text gchu"><label for="">Ghi chú:</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <hr>
+
+        <p>
+            <input type="button" value="Đăng kí" >
+            <input type="reset" value="Nhập lại" >
+        </p>
+</body>
+</html>
