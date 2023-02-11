@@ -5,24 +5,36 @@
 
 .wrapper{
     width: 450px;
-    height: 600px;
+    height: 700px;
     display: flex;
     flex-direction: column;
-    margin: 80px 0 0 80px;
+    margin: 50px 0 0 80px;
     padding: 20px;
     background-color: rgb(250, 249, 249);
     font-family: 'Noto Sans Syloti Nagri';
-    box-shadow: 0 0 5px -1px;
+    box-shadow: 0px 0px 5px 0.01px  ;
+    border-radius: 20px;
 }
 
     .start{
         height: 60px;
         display: flex;
         justify-content: space-between;
+        padding-bottom: 10px;
     }
+        .start-lef h1, .button{
+            margin-bottom: 5px;
+            font-family: 'Pacifico';
+            font-family: 'Roboto', sans-serif;
+        }
+        .start-lef h6{
+            font-family: 'Roboto', sans-serif;
+            color: #7a7676;
+            white-space:0.03cm;
+        }
 
     .inf{
-        margin-top: 10px;
+        margin-top: 20px;
         display: flex;
         flex-direction: column;
     }
@@ -38,7 +50,7 @@
             font-family: 'Noto Sans Syloti Nagri', sans-serif;
             color: #181717;
             font-weight: 00;
-           letter-spacing: 0.02cm;
+            letter-spacing: 0.02cm;
         }
         .name{
             display: flex;
@@ -46,11 +58,17 @@
             margin-bottom: 10px;
         }
             .fname, .sname{
-                width: 47%;
-                height: 25px;
-                padding: 2px;
+                width: 45%;
+                height: 30px;
+                padding: 5px;
                 border: 2px solid #cecbca;
                 border-radius: 5px;
+            }
+            .fname:focus{
+
+            }
+            i{
+                font-size: 30px;
             }
         .email{
             display: flex;
@@ -59,8 +77,8 @@
             margin-bottom: 0px;
         }
             .email01, .email011, .pass {
-                height: 25px;
-                padding: 2px;
+                height: 30px;
+                padding: 5px;
                 border: 2px solid #cecbca;
                 border-radius: 5px;
                 margin-bottom: 10px;
@@ -73,17 +91,22 @@
             }
                 .dob-slt select{
                     width: 32%;
-                    height: 25px;
-                    padding: 2px;
+                    height: 45px;
+                    padding: 5px;
                     border: 2px solid #cecbca;
                     border-radius: 5px;
                 }
-                .gender-slt select{
-                    width: 30%;
-                    height: 25px;
-                    padding: 2px;
-                    border: 2px solid #6e2810;
+                .gender-slt .slt{
+                    width: 29%;
+                    height: 34px;
+                    padding: 4px;
+                    border: 2px solid #cecbca;
                     border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color:#fff;
+
                 }
                 .gender-slt input{
                     margin-left: 50px;
@@ -95,12 +118,23 @@
                 font-size: 15px;
             }
         
-        button{
-            background-color: #01A501 ;
-            border-radius: 5px;
-            color: #fff;
-            width: 100px;
-            left: 400px;
 
+        .btn{
+            display: flex;
+            justify-content: center;
         }
+            button {
+            background-color: #01A501;
+            box-shadow: 0 5px 3px 0 #1f6802;
+            border: none;
+            border-radius: 5px;
+            color:#ffffff ;
+            width: 200px;
+            height: 40px;
+            transition: 0.5s;
+            }
+            button:active{
+                box-shadow: none;
+                transform: translateY(5px) ;
+            }
             
