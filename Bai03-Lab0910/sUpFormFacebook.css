@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 450px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0 0 80px;
+    padding: 20px;
+    background-color: rgb(250, 249, 249);
+    font-family: 'Noto Sans Syloti Nagri';
+    box-shadow: 0 0 5px -1px;
+}
+
+    .start{
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .inf{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+        .hiden{
+            /* display: none; */
+            margin-bottom: 10px;
+            background-color: #FFEBE8;
+            border: 2px solid #db4832;
+            border-radius: 2px;
+            padding: 5px;
+            text-align: center;
+            font-family: 'Noto Sans Syloti Nagri';
+            font-family: 'Noto Sans Syloti Nagri', sans-serif;
+            color: #181717;
+            font-weight: 00;
+           letter-spacing: 0.02cm;
+        }
+        .name{
+            display: flex;
+            justify-content:space-between;
+            margin-bottom: 10px;
+        }
+            .fname, .sname{
+                width: 47%;
+                height: 25px;
+                padding: 2px;
+                border: 2px solid #cecbca;
+                border-radius: 5px;
+            }
+        .email{
+            display: flex;
+            flex-direction: column;
+            line-height: 30px;
+            margin-bottom: 0px;
+        }
+            .email01, .email011, .pass {
+                height: 25px;
+                padding: 2px;
+                border: 2px solid #cecbca;
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+
+            .dob-slt, .gender-slt{
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 10px;
+            }
+                .dob-slt select{
+                    width: 32%;
+                    height: 25px;
+                    padding: 2px;
+                    border: 2px solid #cecbca;
+                    border-radius: 5px;
+                }
+                .gender-slt select{
+                    width: 30%;
+                    height: 25px;
+                    padding: 2px;
+                    border: 2px solid #6e2810;
+                    border-radius: 5px;
+                }
+                .gender-slt input{
+                    margin-left: 50px;
+                }
+        
+            label{
+                color:#585656 ;
+                font-weight: bold;
+                font-size: 15px;
+            }
+        
+        button{
+            background-color: #01A501 ;
+            border-radius: 5px;
+            color: #fff;
+            width: 100px;
+            left: 400px;
+
+        }
+            
