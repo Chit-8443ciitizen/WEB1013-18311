@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    margin: 20px;
+    width: 1200px;
+    height: 800px;
+}
+    .wr-top{
+        border: 1px solid rgb(161, 161, 161);
+        border-radius: 15px 15px 0 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        line-height: 30px;
+        margin: 0 0 2px 0;
+        padding: 10px 30px 10px 30px;
+    }
+        .wr-tp-left{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            width: 250px;
+            padding: 20px;
+            line-height: 20px;
+        }
+            .wr-tp-left>h2{
+            }
+            .wr-tp-left>h4{
+                width: ;
+                margin-right: 10px ;
+                padding:2px 10px 2px 13px ;
+                align-items: center;
+                border: none;
+                border-radius: 10px;
+                font-weight: 600;
+                background-color: rgba(151, 145, 145, 0.1);
+            }
+
+        .wr-tp-right{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-family: 'Dosis', sans-serif;
+            width: 280px;
+            padding: 15px;
+            line-height: 30px;
+        }
+            .btn-dl {
+                width: 55%;
+                display: flex;
+                flex-direction: row;
+                justify-content:space-around;
+                align-items: center;
+                border-radius: 10px;
+                padding: 0 5px 0 5px; 
+                border: 1px solid rgb(209, 209, 209);
+                background-color: #fff;
+            }
+            .btn-add{
+                width: 40%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border-radius: 10px;
+                background-color: rgb(0, 0, 0);
+                color: #fff;
+            }
+            .btn-dl i{
+                color: rgb(255, 255, 255);
+                background-color: rgb(0, 0, 0);
+            }
+    
+    .wr-body{
+        border-radius: 0 0 15px 15px;
+        display: flex;
+        flex-direction: column;
+        height: 1000px;
+        border: 1px solid gray;
+        border-top: none ;
+        font-family: 'Dosis', sans-serif;
+    }
+        .wr-bd-top{
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 10px;
+        }
+            .namecheck{
+                flex-grow: 0.38;
+            }
+            .stt{
+                flex-grow: 0.07;
+                display: flex;
+                flex-direction: row;
+            }
+            .emdr{
+                flex-grow: 0.18;
+                }
+            .wr-bd-top h3{
+                display: flex;
+                flex-grow: 0.4;
+            }
+            .namecheck>label, .stt, .emdr, .wr-bd-top h3{
+                font-family: 'Dosis', sans-serif;
+                font-weight: 600;
+                color: rgb(63, 62, 62);
+            }
+        
+        .wr-bd-acc{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 80px;
+            padding: 10px;
+        }
+        .wr-bd-acc:nth-child(odd){
+        }
+        .wr-bd-acc:nth-child(even){
+            background-color: rgb(241, 238, 238);
+        }
+            .acc-checkbox{
+                display: flex;
+                flex-grow: 3.7;
+                justify-content: start;
+                height: 60px;
+            }
+                .acc-checkbox input{
+                    margin-right: 5px;
+                    margin-left: 0px;
+                }
+                .avt-name{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 150px;
+                }
+                    .avt-name img{
+                        border-radius: 100%;
+                        border: none;
+                        background-color: rgba(19, 19, 19, 0.1);
+                    }
+                    .avt-name .name{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        padding: 5px;
+                    }
+                        .avt-name h3{
+                           
+                        }
+            .status{
+                display: flex;
+                flex-grow: 1;  
+                flex-direction: row;
+                align-items: center;
+            }
+            .edress{
+                display: flex;
+                flex-grow:2.2;
+            } 
+                .edress p{
+                    color: rgb(104, 103, 103);
+                }
+            .tms-re{
+                display: flex;
+                flex-grow: 3;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 225px;
+            }
+                .teams {
+                    display: flex;
+                    flex-direction: row;
+                }
+                    .teams p{
+                        background-color: rgb(236, 236, 143);
+                        border-radius: 10px;
+                        width: 80px;
+                    }
+                    .teams .team01{
+                        margin-right: 10px;
+                    }
+                .re{
+                }
+
