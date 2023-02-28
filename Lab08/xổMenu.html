@@ -33,7 +33,7 @@
         .menu ul li a:hover{
             color: yellow;
         }
-        .menu ul li:hover ul{
+        ul li:hover ul{
             display: block;
         }
         .menu ul ul{
@@ -58,10 +58,10 @@
             font-size:larger;
             padding:0 20px;
         }
-        .menu ul ul a:hover{
+        /* .menu ul ul a:hover{
             background-color:orangered;
             color:white;
-        }
+        } */
         
     </style>
 </head>
@@ -70,14 +70,19 @@
         <ul>
            <li><a href="#">Trang chủ</a></li>
            <li><a href="#">Giới thiệu</a></li>
-           <li>
-            <a href="#">Liên hệ</a>
-            <ul>
-                <li><a href="#">Tuyển Sinh</a></li><br>
-                <li><a href="#">Thực Tập</a></li>
-            </ul>
+           <li>  
+                <a href="#">Liên hệ
+                    <ul>
+                        <li><a href="#">Tuyển Sinh</a></li><br>
+                        <li><a href="#">Thực Tập</a></li>
+                    </ul>
+                </a>
+
            </li>
-           <li><a href="#">Góp ý</a></li>
+           <li><a href="#">Góp ý
+           </a>
+
+            </li>
            <li><a href="#">Hỏi đáp</a></li>
         </ul>
     </nav>

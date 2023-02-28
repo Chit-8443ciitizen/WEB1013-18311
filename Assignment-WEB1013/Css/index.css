@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --bluer--color: #abc9e1
+}
+nav{
+    background-color: var(--bluer--color);
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    line-height: 50px;
+}
+    nav ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-align:left;
+        padding: 0px;
+        margin: 0px;
+        
+    }
+        nav ul li{
+            display: inline-block ;
+            position: relative;
+        }
+        nav ul li a{
+            display: block;
+            text-decoration: none;
+            font-variant: small-caps;
+            font-size: larger;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: rgb(4, 17, 129);
+        }
+        nav ul li a img{
+            margin: 0 0 -10px 0 ;
+            padding: 0;
+            width: 70px;
+            height: 50px;
+        }
+            nav ul li:hover ul{
+                display: block;
+            }
+            nav ul ul{
+                position: absolute;
+                display: none;
+                padding:3px;
+                margin:1px;
+                list-style:none;
+                border-radius:3px;
+                width:200px;
+                background-color:white;
+                box-shadow:0 0 5px gray;
+            }
+                nav ul ul a{
+                    position: relative;
+                    display: block;
+                    line-height: 30px;
+                    border-radius:3px;
+                    color:var(--bluer--color);
+                    text-decoration:none;
+                    font-variant: small-caps;
+                    font-size:larger;
+                    padding:0 20px;
+                }
+                nav ul ul a:hover{
+                    background-color:var(--bluer--color);
+                    color:white;
+                }
+
+        /* nav a span :hover{
+            display: inline;
+        } */
+#banner{
+    background-image: url(../Images/banner-thpt.jpg);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0px;
+}
+#banner h2{
+    color: #3073B9;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: kanit;
+    line-height: 250px;
+}
+section{
+    width: 80%;
+    margin: auto;
+}
+section h2{
+    font-family: kanit;
+    color: #87C3DC;
+    text-align: center;
+}
+p{text-indent: 50px;font-family: Noto; text-align: justify;}
+section .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1,.box2,.box3,.box4{width: calc(50% - 30px);padding-right: 30px;}
+.box1 h3{color: red; text-transform: uppercase;}
+.box2 h3{color: green;text-transform: uppercase}
+.box3 h3{color: #1399B8;text-transform: uppercase}
+.box4 h3{color: greenyellow;text-transform: uppercase}
+.award{width: 33.3%; line-height: 30px;}
+footer{display: flex; background-color: #0F2B44; padding: 20px; color: #fff;}
+.footer{width: 25%;}
+.footer-bottom{background-color: #0f1c28;color: #fff; text-align: center;padding: 8px;}
